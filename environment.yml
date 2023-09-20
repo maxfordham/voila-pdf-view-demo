@@ -10,5 +10,6 @@ channels:
   - conda-forge
 dependencies:
   - python
-  - jupyterlab>=4
-  - voila>=0.5.0
+  - jupyterlab
+  - voila
+  
