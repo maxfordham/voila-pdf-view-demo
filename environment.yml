@@ -1,0 +1,14 @@
+name: voila-view
+# channels priority
+# see https://bioconda.github.io/
+# conda-forge has highest prioriy
+# ---------------------------------
+# dev env currently contains
+# requirements for both UI and API
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.8,<4
+  - jupyterlab>=4
+  - voila>=0.5.0
