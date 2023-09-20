@@ -9,6 +9,6 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python>=3.8,<4
+  - python
   - jupyterlab>=4
   - voila>=0.5.0
