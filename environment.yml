@@ -11,4 +11,6 @@ channels:
 dependencies:
   - python=3.10
   - jupyterlab>=4.0.0
-  - voila>=0.5.7
+  - pip
+  pip:
+    - voila>=0.5.7
